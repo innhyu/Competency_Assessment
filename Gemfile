@@ -51,6 +51,13 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'faker'
 gem 'populator3'
 
+# Passenger
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+
+#Test
+gem 'sqlite3'
+
+
 # For .csv, .xls, .xlsx import and export
 gem "roo", "~> 2.7.0"
 # Special gem for specifically xls files
