@@ -3,7 +3,7 @@
 # Step 1: Create an Admin
 users =
   [
-    ["admin", "password", "password", true]
+    ["cmuPDSAdmin", "CmuPd$17", "CmuPd$17", true]
   ]
 
 users.each do |user|
